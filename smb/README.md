@@ -26,5 +26,18 @@ smbclient -L <netbios name>
 
 ## smbmap
 
+### modifiers
 
+- `-H <ip>`. IP of SMB server host.
+- `-u <username>`. username; **if omitted, null session is assumed**.
+- `-p (<password>|<ntlm hash>)`. password or NTLM hash.
+- `[-s <share>]`. specify a share; default: `C$`
+- `[-d <domain>]`. domain name; default: `WORKGROUP`
+- `[-P <port>]`. port; default: `445`
 
+### commands
+- `-R <path>`. recursive search.
+- `-A (<pattern>|<file name>)`. retrieve files that match `<pattern>`.
+
+## shopping list
+- `Groups.xml`. Group Policy Preferences configuration file that contains encrypted passwords with a publicly available key.

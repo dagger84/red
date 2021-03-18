@@ -18,8 +18,8 @@ nmap --script safe [...] -p[ports]
 
 ## port map
 
-|port|service |
-|:--:|:------:|
-|53  |DNS     |
-|88  |Kerberos|
-|445 |SMB     |
+|port|protocol|service |
+|:--:|:------:|:------:|
+|53  |UDP     |DNS     |
+|88  |UDP     |Kerberos|
+|445 |TCP     |SMB     |
