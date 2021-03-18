@@ -1,3 +1,3 @@
 # red
 
-Red team techniques.
+_Red team pocket guide._
