@@ -23,3 +23,20 @@ nmap --script safe [...] -p[ports]
 |53  |UDP     |DNS     |
 |88  |UDP     |Kerberos|
 |445 |TCP     |SMB     |
+
+## scripts reference
+
+### smb-os-discovery
+- Gathers the following information:
+  - OS
+  - OS CPE ([Common Platform Enumeration](https://nmap.org/book/output-formats-cpe.html))
+  - Computer name
+  - NetBIOS computer name
+  - Domain name
+  - Forest name
+  - FQDN (fully qualified domain name)
+  - System time
+
+### smb-security mode
+
+### smb2-security mode
