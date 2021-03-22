@@ -1,9 +1,18 @@
-# Web
+# web
 
-## Reconnaissance
+## reconnaissance
 
-### Scanning for web directories
+### scanning for web directories
 - `gobuster -w <wordlist>`
-- Wordlists
+- wordlists
   - `dirbuster/directory-list-lowercase-2.3-medium.txt`
 
+## deserialization attacks
+
+### node
+
+### python
+
+### php
+
+### java

@@ -12,3 +12,4 @@ systeminfo
 
 ### references
 - [ss64.com: `runas`](https://ss64.com/nt/runas.html)
+- [Windows pentest commands](http://www.networkpentest.net/p/windows-command-list.html)

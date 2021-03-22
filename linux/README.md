@@ -1,0 +1,6 @@
+# linux
+
+```
+id
+uname -a
+```
