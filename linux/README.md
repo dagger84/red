@@ -19,3 +19,7 @@ uname -a
 ```bash
 grep CRON /var/log/syslog
 ```
+
+## devices
+
+- `pcspkr`. access the PC speaker

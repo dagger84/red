@@ -11,6 +11,14 @@
 - `arp -a`. view ARP table
 - `netstat -ano`. view open connections
 
+## lfi
+- `C:/license.rtf`. OS version
+- `C:/WindowsUpdate.log`. current state of windows updates
+- `C:/SoftwareDistribution`. previously downloaded windows update patches
+- `C:/Windows/system32/config/regback/sam`. stored password hashes
+- `C:/Windows/System32/drivers/etc/hosts`. hardcoded network hosts
+
 ### references
 - [ss64.com: `runas`](https://ss64.com/nt/runas.html)
 - [Windows pentest commands](http://www.networkpentest.net/p/windows-command-list.html)
+- [Windows path traversal (important files) cheatsheet](https://gracefulsecurity.com/path-traversal-cheat-sheet-windows/)
