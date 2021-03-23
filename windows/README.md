@@ -6,9 +6,10 @@
 
 ## discovery tactics for windows
 
-```
-systeminfo
-```
+- `systeminfo`
+- `route print`. show routing table
+- `arp -a`. view ARP table
+- `netstat -ano`. view open connections
 
 ### references
 - [ss64.com: `runas`](https://ss64.com/nt/runas.html)
