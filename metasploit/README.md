@@ -1,5 +1,14 @@
 # metasploit
 
+## terminology
+
+- **handler.** the process that ensures a payload executes correctly
+  - starts up a server to deliver the next stages of a staged payload
+  - starts up a listener for final incoming connections
+- **listener**. waits for an incoming connection from an exploited system
+- **payload**. the code that is run on the victim's computer
+- loader.
+
 ## main commands
 - `sessions`
 
@@ -13,3 +22,9 @@
     
 ## mimikatz
 - `lsa_dump_secrets`
+
+## reference
+
+- [What is a handler?](https://docs.rapid7.com/metasploit/working-with-payloads/)
+- [How do staged payloads in metasploit work?](https://buffered.io/posts/staged-vs-stageless-handlers/)
+- [Stageless metasploit payloads](https://blog.rapid7.com/2015/03/25/stageless-meterpreter-payloads/)
