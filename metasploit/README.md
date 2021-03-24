@@ -22,7 +22,7 @@
 ## meterpreter
 - `getuid`. get the current user's id
 - `sysinfo`
-- `hashdump`
+- `hashdump`.
 - `ps`
 - `load`
   - `kiwi`

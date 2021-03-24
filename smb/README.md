@@ -4,6 +4,10 @@
 
 - **NetBIOS name**. the NetBIOS server `//<netbios name>` that _may or may not_ be the server's IP address
 
+## metasploit
+
+- `auxiliary/scanner/smb/smb_version`. SMB version detection
+
 ## smbclient
 
 ### modifiers
