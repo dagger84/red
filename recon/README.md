@@ -23,6 +23,7 @@ nmap --script safe [...] -p[ports]
 |53  |UDP     |DNS     |                 |
 |88  |UDP     |Kerberos|Domain Controller|
 |445 |TCP     |SMB     |File shares      |
+|3389|TCP     |RDP     |Remote desktop   |
 |5985|TCP     |WinRM   |                 |
 
 ## scripts reference

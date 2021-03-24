@@ -2,18 +2,25 @@
 
 ## terminology
 
-- **handler.** the process that ensures a payload executes correctly
+- **handler.** the process on the attacker or C2 machine that ensures a payload executes correctly
   - starts up a server to deliver the next stages of a staged payload
   - starts up a listener for final incoming connections
-- **listener**. waits for an incoming connection from an exploited system
-- **payload**. the code that is run on the victim's computer
-- loader.
+- **listener**. waits for an incoming connection from an exploited system.
+- **payload**. the code that is run on the victim's computer.
+- **loader/stager.** the small stub of code in shellcode that downloads a full payload.
 
 ## main commands
 - `sessions`
+- `search`
+
+### using an exploit
+- `show options`.
+- `info`.
+- `check`.
+- `run`.
 
 ## meterpreter
-- `getuid`
+- `getuid`. get the current user's id
 - `sysinfo`
 - `hashdump`
 - `ps`
