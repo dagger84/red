@@ -21,11 +21,12 @@
 
 ## meterpreter
 - `getuid`. get the current user's id
-- `sysinfo`
+- `sysinfo`.
 - `hashdump`.
-- `ps`
-- `load`
-  - `kiwi`
+- `ps`.
+- `load`.
+  - `kiwi`.
+- `download`.
     
 ## mimikatz
 - `lsa_dump_secrets`

