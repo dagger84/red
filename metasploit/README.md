@@ -28,11 +28,16 @@
   - `kiwi`.
 - `download`.
     
-## mimikatz
-- `lsa_dump_secrets`
+### mimikatz
+- `lsa_dump_secrets`.
+
+## pivoting
+- `use auxiliary/server/socks_proxy`.
+- `route add <ip> <session id>`.
 
 ## reference
 
 - [What is a handler?](https://docs.rapid7.com/metasploit/working-with-payloads/)
 - [How do staged payloads in metasploit work?](https://buffered.io/posts/staged-vs-stageless-handlers/)
 - [Stageless metasploit payloads](https://blog.rapid7.com/2015/03/25/stageless-meterpreter-payloads/)
+- [Pivoting example (HTB: Granny and Grandpa)](https://www.youtube.com/watch?v=ZfPVGJGkORQ)
