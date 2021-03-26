@@ -6,12 +6,19 @@
 
 ## discovery
 
-- `systeminfo`
+### basic info
+- `systeminfo`. get the OS and version
+
+### networking
 - `route print`. show routing table
 - `arp -a`. view ARP table
 - `netstat -ano`. view open connections
 
-## lfi
+### users
+- `net users`. list users
+- 
+
+### files
 - `C:/Windows/System32/en-US/Licenses/_Default/.../license.rtf`. OS version
 - `C:/WindowsUpdate.log`. current state of windows updates
 - `C:/SoftwareDistribution`. previously downloaded windows update patches
